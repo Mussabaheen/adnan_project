@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".signup_page_lawyer"></activity>
+        <activity android:name=".signup_page_client" />
+        <activity android:name=".Client_activity" />
+        <activity android:name=".Lawyer_activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
